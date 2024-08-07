@@ -8,22 +8,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", "28612368"))
-API_HASH = getenv("API_HASH", "3c23eaafcecfa70d11001dba6537b0fc")
+API_ID = "28612368"
+API_HASH = "3c23eaafcecfa70d11001dba6537b0fc"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "7322404139:AAF3B0lHXduZwOzVzmpZK2DrPUbqYMfp0rA")
+BOT_TOKEN = "7322404139:AAF3B0lHXduZwOzVzmpZK2DrPUbqYMfp0rA"
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://jekishwb:UanCz9S-ycA@cluster0.tsytm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_DB_URI = "mongodb+srv://jekishwb:UanCz9S-ycA@cluster0.tsytm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 300))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002233702363"))
+LOG_GROUP_ID = "-1002233702363"
 
 # Get this value from @MissRose_Bot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "6935797014"))
+OWNER_ID = "6935797014"
 
 # Fill Queue Limit . Example - 15
 QUEUE_LIMIT = int(getenv("QUEUE_LIMIT", "70"))

@@ -8,22 +8,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
+API_ID = int(getenv("API_ID", "22802491"))
 API_HASH = getenv("API_HASH")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "7258014552:AAH_9L9pMrJdfSlFu66L7IPAZwaK8sylQBY")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://jekishwb:jekishwb@cluster0.tsytm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 300))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", -1001899756930))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002192977004"))
 
 # Get this value from @MissRose_Bot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 5111294407))
+OWNER_ID = int(getenv("OWNER_ID", "6935797014"))
 
 # Fill Queue Limit . Example - 15
 QUEUE_LIMIT = int(getenv("QUEUE_LIMIT", "70"))
@@ -48,8 +48,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Ace_networkop")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+JoSPjg4d91QzMWNl")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BAAZAR_X7")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Friendly_Chatting_FC")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
